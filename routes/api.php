@@ -1,5 +1,7 @@
 <?php
 
+
+use App\Http\Controllers\Auth\AuthController;
 use App\Http\Controllers\EntrenadorController;
 use App\Http\Controllers\InventarioController;
 use App\Http\Controllers\MiembroController;
@@ -45,3 +47,7 @@ Route::get('/reportes/dashboard-stats', [ReporteController::class, 'getDashboard
     ->middleware('can:viewAdminContent');
 
 Route::get('/bcv', [App\Http\Controllers\BcvApiController::class, 'getTasa']);
+
+// Añadir la ruta de login
+Route::post('/login', [AuthController::class, 'login']);
+Route::post('/logout', [AuthController::class, 'logout']);
