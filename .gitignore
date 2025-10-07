@@ -1,0 +1,101 @@
+# ═══════════════════════════════════════════════════════════════
+# DEPENDENCIAS
+# ═══════════════════════════════════════════════════════════════
+/node_modules
+/vendor
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE CONSTRUCCIÓN
+# ═══════════════════════════════════════════════════════════════
+/public/build
+/public/hot
+/public/storage
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE CONFIGURACIÓN SENSIBLES
+# ═══════════════════════════════════════════════════════════════
+.env
+.env.backup
+.env.production
+.env.local
+.env.*.local
+/storage/*.key
+auth.json
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE BASE DE DATOS
+# ═══════════════════════════════════════════════════════════════
+*.sql
+*.sqlite
+*.db
+/database/*.sqlite
+/database/*.sql
+
+# ═══════════════════════════════════════════════════════════════
+# BACKUPS Y ARCHIVOS TEMPORALES
+# ═══════════════════════════════════════════════════════════════
+*.backup
+*.bak
+*.tmp
+/backups/
+/temp/
+
+# ═══════════════════════════════════════════════════════════════
+# LOGS
+# ═══════════════════════════════════════════════════════════════
+*.log
+/storage/logs/*.log
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE PRUEBAS
+# ═══════════════════════════════════════════════════════════════
+.phpunit.result.cache
+/coverage/
+/.phpunit.cache
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE SISTEMA OPERATIVO
+# ═══════════════════════════════════════════════════════════════
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# ═══════════════════════════════════════════════════════════════
+# IDEs Y EDITORES
+# ═══════════════════════════════════════════════════════════════
+/.fleet
+/.idea
+/.vscode
+*.swp
+*.swo
+*~
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE DESARROLLO Y CORRECCIONES TEMPORALES
+# ═══════════════════════════════════════════════════════════════
+CORRECCIONES_APLICADAS.txt
+CAMBIOS_REALIZADOS.md
+limpiar_cache_bcv.bat
+*.bat
+COMANDOS_UTILES.md
+
+# ═══════════════════════════════════════════════════════════════
+# ARCHIVOS DE LARAVEL
+# ═══════════════════════════════════════════════════════════════
+Homestead.json
+Homestead.yaml
+/.vagrant
+.phpunit.result.cache
